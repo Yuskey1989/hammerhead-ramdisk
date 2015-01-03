@@ -1,1 +1,18 @@
+# gnu global files
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+*.orig
+*~
+\#*#
+
+# user ignores
 /img_info
+/dt.img
+/zImage
+/kernel
+/ramdisk.gz
+/ramdisk.packed
+/system/lib/modules/*.ko
