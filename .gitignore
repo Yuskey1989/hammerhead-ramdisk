@@ -1,1 +1,6 @@
 /img_info
+/dt.img
+/zImage
+/ramdisk.gz
+/system/lib
+/system/lib/*.ko
