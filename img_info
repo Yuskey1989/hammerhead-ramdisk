@@ -1,8 +1,10 @@
 kernel=zImage
 ramdisk=ramdisk
+dt=dt.img
 page_size=2048
 kernel_size=8479544
 ramdisk_size=711403
+dtb_size=530432
 base_addr=0x00000000
 kernel_offset=0x00008000
 ramdisk_offset=0x02900000
