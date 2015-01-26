@@ -242,7 +242,7 @@ on post-fs-data
     write /sys/kernel/msm_cpufreq_limit/cpufreq_limit 2265600
     write /sys/module/msm_thermal/core_control/enabled 1
     write /sys/module/msm_thermal_v2/core_control/enabled 1
-    write /sys/module/msm_thermal_v2/parameters/enabled Y
+    write /sys/module/msm_thermal_v2/parameters/enabled N
     write /sys/module/msm_thermal_v2/parameters/core_control_mask 12
     write /sys/module/msm_thermal_v2/parameters/core_limit_temp_degC 75
     write /sys/module/msm_thermal_v2/parameters/freq_control_mask 15
