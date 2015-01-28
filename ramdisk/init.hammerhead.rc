@@ -247,6 +247,7 @@ on post-fs-data
     write /sys/module/msm_thermal_v2/parameters/core_limit_temp_degC 75
     write /sys/module/msm_thermal_v2/parameters/freq_control_mask 15
     write /sys/module/msm_thermal_v2/parameters/limit_temp_degC 80
+    write /sys/module/msm_thermal_v2/parameters/poll_ms 500
     chown root.system /sys/devices/system/cpu/mfreq
     chmod 220 /sys/devices/system/cpu/mfreq
     chown root.system /sys/devices/system/cpu/cpu1/online
