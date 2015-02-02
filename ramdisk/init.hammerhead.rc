@@ -211,7 +211,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/intelliactive/above_hispeed_delay "20000 1500000:40000"
     write /sys/devices/system/cpu/cpufreq/intelliactive/boostpulse_duration "240000"
     write /sys/devices/system/cpu/cpufreq/intelliactive/go_hispeed_load "95"
-    write /sys/devices/system/cpu/cpufreq/intelliactive/hispeed_freq "1190400"
+    write /sys/devices/system/cpu/cpufreq/intelliactive/hispeed_freq "1267200"
     write /sys/devices/system/cpu/cpufreq/intelliactive/io_is_busy "0"
     write /sys/devices/system/cpu/cpufreq/intelliactive/min_sample_time "80000"
     write /sys/devices/system/cpu/cpufreq/intelliactive/sampling_down_factor "80000"
