@@ -224,6 +224,12 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_freq "1500000"
     write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_load "60"
 
+    # CPU-Boost driver
+    write /sys/module/cpu_boost/parameters/boost_ms 60
+    write /sys/module/cpu_boost/parameters/input_boost_freq 1267200
+    write /sys/module/cpu_boost/parameters/input_boost_ms 240
+    write /sys/module/cpu_boost/parameters/sync_threshold 1728000
+
     # Hotplug driver
     write /sys/module/intelli_plug/parameters/intelli_plug_active 0
     write /sys/module/intelli_plug/parameters/touch_boost_active 1
