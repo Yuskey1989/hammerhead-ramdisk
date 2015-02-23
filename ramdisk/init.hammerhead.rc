@@ -231,13 +231,13 @@ on post-fs-data
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "20000 1500000:40000 2000000:60000"
     write /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration 20000
-    write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 50
+    write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 95
     write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 422400
     write /sys/devices/system/cpu/cpufreq/interactive/align_windows 1
     write /sys/devices/system/cpu/cpufreq/interactive/io_is_busy 1
     write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 80000
     write /sys/devices/system/cpu/cpufreq/interactive/max_freq_hysteresis 0
-    write /sys/devices/system/cpu/cpufreq/interactive/target_loads "40 500000:60 750000:70 1000000:80 2000000:90"
+    write /sys/devices/system/cpu/cpufreq/interactive/target_loads "75 400000:40 500000:60 750000:70 1000000:80 2000000:90"
     write /sys/devices/system/cpu/cpufreq/interactive/timer_rate 20000
     write /sys/devices/system/cpu/cpufreq/interactive/timer_slack 60000
 
