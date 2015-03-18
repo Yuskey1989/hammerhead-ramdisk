@@ -2,4 +2,3 @@
 /dt.img
 /zImage
 /ramdisk.gz
-/system/lib/modules/*.ko
