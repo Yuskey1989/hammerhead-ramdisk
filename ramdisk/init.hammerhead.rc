@@ -215,7 +215,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "interactive"
-    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "20000 1500000:40000 2000000:60000"
+    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "20000 1500000:40000"
     write /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration 40000
     write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 95
     write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 422400
