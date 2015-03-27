@@ -244,7 +244,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/intelliactive/timer_rate 20000
     write /sys/devices/system/cpu/cpufreq/intelliactive/timer_slack 40000
     write /sys/devices/system/cpu/cpufreq/intelliactive/two_phase_freq "1728000,1728000,1728000,1728000"
-    write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_freq 1500000
+    write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_freq 1497600
     write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_load 70
 
     # CPU-Boost driver
