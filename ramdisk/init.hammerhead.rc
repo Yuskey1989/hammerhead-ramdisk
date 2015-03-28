@@ -247,6 +247,11 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_freq 1497600
     write /sys/devices/system/cpu/cpufreq/intelliactive/up_threshold_any_cpu_load 70
 
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "interactive"
+
     # CPU-Boost driver
     write /sys/module/cpu_boost/parameters/boost_ms 60
     write /sys/module/cpu_boost/parameters/input_boost_freq 1267200
