@@ -276,6 +276,8 @@ on post-fs-data
     write /sys/module/cpu_boost/parameters/input_boost_freq 1267200
     write /sys/module/cpu_boost/parameters/input_boost_ms 240
     write /sys/module/cpu_boost/parameters/sync_threshold 1728000
+    write /sys/module/cpu_boost/parameters/load_based_syncs 1
+    write /sys/module/cpu_boost/parameters/migration_load_threshold 15
 
     # Hotplug driver
     write /sys/module/intelli_plug/parameters/intelli_plug_active 0
