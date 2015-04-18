@@ -203,7 +203,7 @@ on post-fs-data
 
     # CPU-Boost driver
     write /sys/module/cpu_boost/parameters/boost_ms 60
-    write /sys/module/cpu_boost/parameters/input_boost_freq 1267200
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:1267200 1:1267200 2:0 3:0"
     write /sys/module/cpu_boost/parameters/input_boost_ms 240
     write /sys/module/cpu_boost/parameters/sync_threshold 1728000
     write /sys/module/cpu_boost/parameters/load_based_syncs 1
