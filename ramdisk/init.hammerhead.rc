@@ -264,7 +264,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/adaptactive/powersave_bias 1
     write /sys/devices/system/cpu/cpufreq/adaptactive/min_sample_time 120000
     write /sys/devices/system/cpu/cpufreq/adaptactive/max_freq_hysteresis 0
-    write /sys/devices/system/cpu/cpufreq/adaptactive/target_loads "70 500000:60 750000:65 1000000:70 1250000:75 1500000:80 1750000:85 2000000:90 2250000:95"
+    write /sys/devices/system/cpu/cpufreq/adaptactive/target_loads "70 1250000:75 1500000:80 1750000:85 2000000:90 2250000:95"
     write /sys/devices/system/cpu/cpufreq/adaptactive/timer_rate 20000
     write /sys/devices/system/cpu/cpufreq/adaptactive/timer_slack 40000
     write /sys/devices/system/cpu/cpufreq/adaptactive/sync_freq 1036800
