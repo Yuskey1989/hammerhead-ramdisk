@@ -291,9 +291,9 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/adaptactive/target_loads "70 1000000:75 1250000:80 1500000:85 1750000:90 2000000:95"
     write /sys/devices/system/cpu/cpufreq/adaptactive/timer_rate 20000
     write /sys/devices/system/cpu/cpufreq/adaptactive/timer_slack 40000
-    write /sys/devices/system/cpu/cpufreq/adaptactive/sync_freq 1036800
+    write /sys/devices/system/cpu/cpufreq/adaptactive/sync_freq 960000
     write /sys/devices/system/cpu/cpufreq/adaptactive/up_threshold_any_cpu_freq 1497600
-    write /sys/devices/system/cpu/cpufreq/adaptactive/up_threshold_any_cpu_load 75
+    write /sys/devices/system/cpu/cpufreq/adaptactive/up_threshold_any_cpu_load 90
 
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "adaptactive"
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "adaptactive"
