@@ -1,5 +1,7 @@
 /img_info
 /dt.img
 /zImage
+/kernel
 /ramdisk.gz
+/ramdisk.packed
 /system/lib/modules/*.ko
