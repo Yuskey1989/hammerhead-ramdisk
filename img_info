@@ -1,4 +1,4 @@
-kernel=kernel
+kernel=zImage
 ramdisk=ramdisk
 dt=dt.img
 page_size=2048
