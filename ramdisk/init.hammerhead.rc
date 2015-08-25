@@ -278,7 +278,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "adaptactive"
     write /sys/devices/system/cpu/cpufreq/adaptactive/above_hispeed_delay "20000 1500000:40000"
     write /sys/devices/system/cpu/cpufreq/adaptactive/boostpulse_duration 120000
-    write /sys/devices/system/cpu/cpufreq/adaptactive/input_boostpulse_duration 240000
+    write /sys/devices/system/cpu/cpufreq/adaptactive/input_boostpulse_duration 2400000
     write /sys/devices/system/cpu/cpufreq/adaptactive/go_hispeed_load 95
     write /sys/devices/system/cpu/cpufreq/adaptactive/go_lowspeed_load 5
     write /sys/devices/system/cpu/cpufreq/adaptactive/hispeed_freq 1036800
