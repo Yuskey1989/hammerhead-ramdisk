@@ -284,7 +284,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/adaptactive/hispeed_freq 1036800
     write /sys/devices/system/cpu/cpufreq/adaptactive/input_boost_freq 1267200
     write /sys/devices/system/cpu/cpufreq/adaptactive/align_windows 1
-    write /sys/devices/system/cpu/cpufreq/adaptactive/io_is_busy 1
+    write /sys/devices/system/cpu/cpufreq/adaptactive/io_is_busy 0
     write /sys/devices/system/cpu/cpufreq/adaptactive/powersave_bias 1
     write /sys/devices/system/cpu/cpufreq/adaptactive/min_sample_time 60000
     write /sys/devices/system/cpu/cpufreq/adaptactive/max_freq_hysteresis 120000
