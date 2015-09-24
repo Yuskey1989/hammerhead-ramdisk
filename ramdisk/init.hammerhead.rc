@@ -317,11 +317,11 @@ on post-fs-data
 
     # MSM Hotplug
     write /sys/module/msm_hotplug/enabled 0
-    write /sys/module/msm_hotplug/boost_lock_duration 2400
-    write /sys/module/msm_hotplug/down_lock_duration 600
+    write /sys/module/msm_hotplug/boost_lock_duration 3000
+    write /sys/module/msm_hotplug/down_lock_duration 1200
     write /sys/module/msm_hotplug/history_size 10
     write /sys/module/msm_hotplug/update_rates 10
-    write /sys/module/msm_hotplug/fast_lane_load 99
+    write /sys/module/msm_hotplug/fast_lane_load 180
     write /sys/module/msm_hotplug/offline_load 0
     write /sys/module/msm_hotplug/io_is_busy 0
     write /sys/module/msm_hotplug/suspend_max_cpus 1
