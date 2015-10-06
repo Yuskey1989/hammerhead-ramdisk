@@ -130,7 +130,7 @@ on post-fs-data
 
     # Subsytem Ramdump collection
     mkdir /data/tombstones/ramdump 0777 system system
-    write /sys/module/subsystem_restart/parameters/enable_ramdumps 1
+    write /sys/module/subsystem_restart/parameters/enable_ramdumps 0
 
     # NFC: create data/nfc for nv storage
     mkdir /data/nfc 0770 nfc nfc
@@ -415,7 +415,7 @@ on property:init.svc.bootanim=stopped
 #    write /sys/module/msm_thermal/parameters/enabled Y
 
 on property:ro.debuggable=1
-    start ssr_ramdump
+#    start ssr_ramdump
 
 service rmt_storage /system/bin/rmt_storage
     class core
