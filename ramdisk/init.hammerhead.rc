@@ -245,7 +245,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/interest/up_threshold_any_cpu_freq 1497600
     write /sys/devices/system/cpu/cpufreq/interest/up_threshold_any_cpu_load 90
     write /sys/devices/system/cpu/cpufreq/interest/plus_ondemand 4
-    write /sys/devices/system/cpu/cpufreq/interest/plus_smart 2
+    write /sys/devices/system/cpu/cpufreq/interest/treat_as_ideal_freq 2
     write /sys/devices/system/cpu/cpufreq/interest/ramp_up_step 0
     write /sys/devices/system/cpu/cpufreq/interest/ramp_down_step 150000
     restorecon_recursive /sys/devices/system/cpu/cpufreq/interest
