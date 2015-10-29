@@ -247,7 +247,7 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/interest/plus_ondemand 4
     write /sys/devices/system/cpu/cpufreq/interest/treat_as_ideal_freq 2
     write /sys/devices/system/cpu/cpufreq/interest/ramp_up_step 0
-    write /sys/devices/system/cpu/cpufreq/interest/ramp_down_step 150000
+    write /sys/devices/system/cpu/cpufreq/interest/ramp_down_step 0
     restorecon_recursive /sys/devices/system/cpu/cpufreq/interest
 
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interest"
